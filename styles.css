@@ -1,4 +1,4 @@
-/* General */
+
 body {
     text-align: center;
     margin: 0;
@@ -12,7 +12,6 @@ body {
     margin: 0 auto;
 }
 
-/* Header */
 .header {
     background: #bf4b5fb4;
     color: white;
@@ -33,7 +32,6 @@ body {
     align-items: center;
 }
 
-/* Navigation Menu */
 .menu ul {
     list-style: none;
     display: flex;
@@ -58,7 +56,6 @@ body {
     color: #f7f2f6;
 }
 
-/* Team */
 .team-section {
     padding: 40px 20px;
     text-align: center;
@@ -101,8 +98,6 @@ body {
     line-height: 1.5;
 }
 
-
-/* Hero Section */
 .hero {
     text-align: center;
     padding: 40px 20px;
@@ -114,7 +109,6 @@ body {
     border-radius: 10px;
 }
 
-/* Footer */
 footer {
     text-align: center;
     background: #bf4b5fb4;
@@ -122,7 +116,7 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
-/* Services */
+
 .services-table {
     width: 100%;
     border-collapse: collapse;
@@ -147,7 +141,7 @@ footer {
 .services-table tr:hover {
     background-color: #f1c1d3;
 }
-/* Blog */
+
 .blog-section {
     padding: 40px 20px;
     background: #f4f4f4;
@@ -201,36 +195,35 @@ footer {
 .read-more:hover {
     color: #e594bb;
 }
-        /* Contact */
-        .contact-section {
-            padding: 40px 20px;
-            text-align: center;
-        }
 
-        .contact-info {
-            margin-bottom: 30px;
-        }
+.contact-section {
+    padding: 40px 20px;
+    text-align: center;
+}
 
-        .contact-info p {
-            font-size: 18px;
-            margin: 10px 0;
-        }
+.contact-info {
+    margin-bottom: 30px;
+}
 
-        .contact-info a {
-            color: #1b191a;
-            text-decoration: none;
-        }
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
 
-        .map-container {
-            margin-top: 40px;
-            position: relative;
-            width: 100%;
-            height: 400px;
-        }
+.contact-info a {
+    color: #1b191a;
+    text-decoration: none;
+}
 
-        /* iframe */
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: 0;
-        }
+.map-container {
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
